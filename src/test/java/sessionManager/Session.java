@@ -12,9 +12,13 @@ public class Session {
         driver = FactoryDevice.make("android").create();
     }
 
-    public static Session getInstance(){
+    public static Session getInstance() {
         if (session == null){
-            session = new Session();
+            try {
+                session = new Session();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
         }
         return session;
     }

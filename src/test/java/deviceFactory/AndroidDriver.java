@@ -14,8 +14,8 @@ public class AndroidDriver implements IDevice {
         DesiredCapabilities capabilities=new DesiredCapabilities();
         capabilities.setCapability("deviceName","Galaxy Tab A (2016)");
         capabilities.setCapability("platformVersion","5.1.1");
-        capabilities.setCapability("appPackage","com.sec.android.app.popupcalculator");
-        capabilities.setCapability("appActivity",".Calculator");
+        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity",".ui.HomeActivity");
         capabilities.setCapability("platformName","Android");
 
         AppiumDriver driver=new io.appium.java_client.android.AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
