@@ -9,10 +9,12 @@ public class CheckBox extends Control {
     }
 
     public void check(){
-
+        // TODO Add implementation
+        // Workaround
+        click();
     }
 
     public void unCheck(){
-
+        // TODO Add implementation
     }
 }

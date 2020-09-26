@@ -2,7 +2,6 @@ package sessionManager;
 
 import deviceFactory.FactoryDevice;
 import io.appium.java_client.AppiumDriver;
-
 import java.net.MalformedURLException;
 
 public class Session {
