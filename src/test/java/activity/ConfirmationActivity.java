@@ -1,4 +1,4 @@
-package activity.todo;
+package activity;
 
 import appiumControl.Button;
 import org.openqa.selenium.By;

@@ -1,9 +1,9 @@
 package test;
 
-import activity.todo.AddNoteActivity;
-import activity.todo.ConfirmationActivity;
-import activity.todo.MainActivity;
-import activity.todo.MoreOptionsActivity;
+import activity.AddNoteActivity;
+import activity.ConfirmationActivity;
+import activity.MainActivity;
+import activity.MoreOptionsActivity;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package activity.todo;
+package activity;
 
 import appiumControl.Button;
 import appiumControl.CheckBox;
