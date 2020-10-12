@@ -4,8 +4,11 @@ import activity.AddNoteActivity;
 import activity.ConfirmationActivity;
 import activity.MainActivity;
 import activity.MoreOptionsActivity;
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
+import sessionManager.Session;
 
 import java.net.MalformedURLException;
 
@@ -55,5 +58,9 @@ public class WhenDoTest {
 
         //Verification
         Assert.assertEquals("Error, Note was not deleted", numNotes -1, mainActivity.countNotes());
+    }
+    @After
+    public void after(){
+        Session.getInstance().closeSession();
     }
 }
