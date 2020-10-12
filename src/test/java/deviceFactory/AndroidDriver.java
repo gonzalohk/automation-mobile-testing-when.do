@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class AndroidDriver<A extends MobileElement> implements IDevice {
+public class AndroidDriver implements IDevice {
 
     @Override
     public AppiumDriver create() throws MalformedURLException {

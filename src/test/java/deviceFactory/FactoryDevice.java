@@ -18,7 +18,7 @@ public class FactoryDevice {
                 break;
             case "android":
             default:
-                device = new AndroidDriver<MobileElement>();
+                device = new AndroidDriver();
                 break;
         }
         return device;

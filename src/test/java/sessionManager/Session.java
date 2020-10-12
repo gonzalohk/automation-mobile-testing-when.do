@@ -4,11 +4,13 @@ import deviceFactory.FactoryDevice;
 import io.appium.java_client.AppiumDriver;
 import java.net.MalformedURLException;
 
+import static configuration.Conf.SELECTED_DRIVER;
+
 public class Session {
     public static Session session= null;
     private AppiumDriver driver;
     private Session() throws MalformedURLException {
-        driver = FactoryDevice.make("browserstack").create();
+        driver = FactoryDevice.make(SELECTED_DRIVER).create();
     }
 
     public static Session getInstance() {

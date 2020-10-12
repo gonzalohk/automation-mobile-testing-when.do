@@ -48,8 +48,14 @@ public class WhenDoTest {
     }
 
     @Test
-    public void removeNote() {
+    public void removeNote() throws MalformedURLException {
         //Steps
+        //add
+        mainActivity.plusButton.click();
+        addNoteActivity.titleTextBox.write("title test - to remove");
+        addNoteActivity.noteTextBox.write("Note test - to remove");
+        addNoteActivity.saveNoteButton.click();
+        //remove
         int numNotes = mainActivity.countNotes();
         mainActivity.checkFirstNote();
         mainActivity.moreOptionsButton.click();

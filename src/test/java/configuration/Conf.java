@@ -1,6 +1,10 @@
 package configuration;
 
 public class Conf {
+
+    //DRIVER to use
+    public static final String SELECTED_DRIVER = "android";
+
     public static final String DEVICE_NAME = "deviceName";
     public static final String PLATFORM_VERSION = "platformVersion";
     public static final String APP_PACKAGE = "appPackage";
