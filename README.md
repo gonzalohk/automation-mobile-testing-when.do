@@ -11,11 +11,8 @@ More details [here!](https://gonzalohk.xyz/blog/configuracion-de-un-entorno-de-t
 - Remove Note
 
 ### Setup
-##### Local
-In Conf.java update SELECTED_DRIVER with "android" and start the APPIUM Server.
-
-##### Remote
-In Conf.java update SELECTED_DRIVER with "android" and in BrowserStack.java update your username and accessKey.
+Local - In Conf.java update SELECTED_DRIVER with "android" and start the APPIUM Server.
+Remote - In Conf.java update SELECTED_DRIVER with "browserstack" and in BrowserStack.java update your username and accessKey.
 
 ### Run
 ```sh
